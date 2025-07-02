@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  height: 570px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(72, 75, 77); */
+  margin: 20px;
+}
+.current-image {
+  width: 100%;
+  border-radius: 0.5em;
+  box-shadow: 0 0 7px #666;
+}
+.current-image img {
+  height: 100%;
+}
+.arrow {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  filter: drop-shadow(0px 0px 5px #555);
+}
+.arrow-left {
+  left: 1rem;
+}
+.arrow-right {
+  right: 1rem;
+}
+.circle-indicators {
+  display: flex;
+  position: absolute;
+  bottom: 7rem;
+}
+.current-indicator {
+  background-color: rgb(249, 226, 226);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.hide-current-image {
+  display: none;
+}
+.inactive-indicator {
+  background-color: gray;
+}

@@ -1,0 +1,11 @@
+.active {
+  color: #fff700;
+}
+.inactve {
+  color: #000000;
+}
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
